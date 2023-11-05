@@ -1,0 +1,38 @@
+/* 
+    Author:Ricardo Vazquez
+    DateL: 11/04/2023
+
+    FileName: main.css
+*/
+
+body {background-color:palegoldenrod;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+}
+
+header {background-color: red;}
+
+h1{color:cornsilk}
+nav > ul {line-height: 2em;
+        list-style-type: none;
+        padding-left:5px;
+}
+h1 {background-color: blueviolet;}
+h2 {background-color: aquamarine;
+        color: darkmagenta;}
+
+p {background-color: gainsboro;}
+p{color: rgb(102. 0 , 51) ;}
+
+ol > li {color: orange;}
+
+section {background-color: palevioletred;
+        width:80%;
+        font-size:medium;
+}
+footer {background-color: white;}

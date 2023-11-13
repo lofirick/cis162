@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* 
+    Author:Ricardo Vazquez
+    DateL: 11/12/2023
+
+    FileName: gridsstuff.css
+*/
+
+/* Grid styles for Body */
+
+div[class="mainbody"] 
+
+div[class="leftColumn"] {
+    float: left;
+}
+div[class="rightColumn"]{
+    float: right;
+}
+div[class="footer"]{
+    float: center;
+
+}
+div.mainbody {width: 100%;}
+div.rightColumn {width: 50%;}
+div.leftColumn {width: 50%;}
+div.footer {width: 100%;}

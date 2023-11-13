@@ -15,24 +15,55 @@ body {
 	min-width: 640px;
 }
 
-header {background-color: red;}
+header {background-color: tan;}
 
 h1{color:cornsilk}
 nav > ul {line-height: 2em;
         list-style-type: none;
         padding-left:5px;
 }
-h1 {background-color: blueviolet;}
+div > h1 {background-color:lightsalmon;}
 h2 {background-color: aquamarine;
-        color: darkmagenta;}
+        color: darkmagenta;
+}
 
-p {background-color: gainsboro;}
-p{color: rgb(102. 0 , 51) ;}
-
-ol > li {color: orange;}
+ol > li {color: white;}
 
 section {background-color: palevioletred;
         width:80%;
         font-size:medium;
 }
 footer {background-color: white;}
+
+img {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 144px;
+	min-width: 144px;
+}
+.center-img {
+        display: block;
+        margin: auto;
+}
+nav > ul > li {
+        display: inline-block;
+        width: 33%;
+        background-color: brown;
+        font-size: x-large;
+      }
+header > h1 {
+        font-size: xx-large;
+        color: aqua;
+        align-self: center;
+        margin: auto;
+        background-color: beige;
+}
+
+div > ol {
+        background-color: tan;
+}
+div > img {
+        width: auto;
+        max-width: 480px;
+        min-width: 480px;
+}
